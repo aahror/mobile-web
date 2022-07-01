@@ -4,9 +4,56 @@
 }
 
 .body{
-    background-image: url(./images.jpg);
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 500px  ;
+    width: 500px;
+    height: 400px  ;
+    position: relative;
     
 }
+
+.body {
+width: 500px;
+height: 400px;
+}
+
+.body-h2{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.body-p{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.body img{
+    width: 600px;
+    height: 400px;
+}
+
+
+.body-button{
+    position: absolute;
+    top:200px;
+    left: 20px;
+    background-color: white;
+}
+
+.h1trusted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+}
+
